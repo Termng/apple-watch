@@ -1,6 +1,91 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.hero-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.left{
+  width: 40%;
+}
+
+.hero-font{
+  font-size: 3rem;
+  line-height: 3.9rem;
+}
+
+.hero-sub{
+  margin-block: 2rem;
+  gap: 1rem;
+  display: flex;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+}
+
+.hero-sub-text{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* width: 70%; */
+}
+
+.img-cont{
+  max-width: 180px;
+  max-height: 140px;
+  border-radius: 10px;
+  background-color: rgb(127, 185, 255);
+}
+.img-cont img{
+  width: 80%;
+  object-fit: contain;
+}
+
+.red-bg{
+  background-color: rgb(40, 40, 40);
+  border-radius: 20px;
+  max-width: 600px;
+  /* max-height: 300px;  */
+}
+
+.img-fit{
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+  /* transform: translateY(-90px); */
+  
+}
+
+@media (max-width:1424px) {
+  .red-bg{
+    max-width: 900px;
+  }
+
+  .left{
+    width: 100%
+  }
+  .img-fit{
+    transform: translateY(0px);
+    
+  }
+  
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

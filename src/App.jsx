@@ -1,14 +1,18 @@
 import React from 'react';
 
-import { Footer, Hero, PopularProduct, Services, Subscribe, SuperQuality, CustomerReviews, SpecialOffer} from './sections'; 
+import { Footer, Hero, HeroB,PopularProduct, Services, Subscribe, SuperQuality, CustomerReviews, SpecialOffer} from './sections'; 
 
+import Nav from './components/nav';
 
 const App = () => {
   return (
-    <main className='relative'>App
-      Nav is the main element
-      <section className="xl:padding-1 wide:padding-r padding-b">
-        <Hero />
+    <main className='relative'>
+     <Nav />
+      <section>
+        {/* <Hero /> */}
+      </section>
+      <section>
+        <HeroB/>
       </section>
 
       <section className="padding">
