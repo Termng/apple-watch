@@ -16,9 +16,11 @@ import watch11 from './watch11.png'
 import watch12 from './watch12.png'
 import watch13 from './watch13.png'
 import watch14 from './watch14.png'
+import watch18 from './watch18.png'
 import watchbanner from './watchbanner.png'
 import customer1 from './customer1.jpg'
 import customer2 from './customer2.jpg'
+
 
 
 
@@ -42,6 +44,7 @@ export {
     watch12,
     watch13,
     watch14,
+    watch18,
     watchbanner,
     customer1,
     customer2

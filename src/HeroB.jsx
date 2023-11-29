@@ -1,17 +1,20 @@
-import { arrowRight } from "./assets/icons"
-import { watch13 } from "./assets/images"
+import { arrowRight} from "./assets/icons"
+import { watch11} from "./assets/images"
+import { useState} from "react"
 import Button from "./components/Button"
 import { statistics, products, watches } from "./constants"
 import WatchCard from "./components/WatchCard"
 
 const HeroB = () => {
+  const [bigWatchImg, setbigWatchImg] = useState (watch11)
+
   return (
     <section
     id="home"
-    className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
+    className="w-full flex xl:flex-row flex-col gap-2 sm:gap-20 justify-center pt-24"
     >
 
-        <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28 gap-5">
+        <div className="relative xl:w-2/5 flex flex-col items-start w-full max-xl:padding-x  gap-5">
 
             <p className="text-xl ">Our Bespoke Collection</p>
             <h1 className="text-[70px] leading-[5.4rem] max-sm:text-[40px] max-sm:leading-[3rem] font-semibold"><span>Get the best deals on</span>
@@ -36,22 +39,22 @@ const HeroB = () => {
 
         </div>
 
-      <div className="relative flex-1 justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center" >
+      <div className="relative justify-center items-center  max-xl:py-20 bg-primary bg-hero  bg-cover bg-center" >
         <img 
         className="relative object-contain z-10 " 
-        width = {610} 
+        width = {510} 
         height ={500} 
-        src={watch13} 
+        src={bigWatchImg} 
         alt="side-image" />
 
-        <div>
+        <div className="flex pt-14 sm:gap-6 gap-4 max-sm:px-6">
           {watches.map((watch) => 
           (
             <div key={watch}>
               <WatchCard
               imgURL = {watch}
-              changeWatchImage = {() => {}}
-              bigWatchImage = ""
+              changeWatchImage = {(watch) => setbigWatchImg(watch)}
+              bigWatchImage = {bigWatchImg}
               />
 
             </div>

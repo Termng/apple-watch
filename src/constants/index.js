@@ -10,16 +10,16 @@ export const navLinks = [
 
 export const watches = [
     {
-        thumbnail: watch1,
-        bigWatch: watch1,
+        thumbnail: watch14,
+        bigWatch: watch14,
     },
     {
         thumbnail: watch2,
         bigWatch: watch2,
     },
     {
-        thumbnail: watch3,
-        bigWatch: watch3,
+        thumbnail: watch10,
+        bigWatch: watch10,
     },
 ];
 
@@ -40,13 +40,9 @@ export const products = [
         name: "Series-9",
         price: "$210.97",
     },
+   
     {
         imgURL: watch6,
-        name: "Ultra-Max",
-        price: "$520.22",
-    },
-    {
-        imgURL: watch7,
         name: "Series-2",
         price: "$195.43",
     },
@@ -61,15 +57,11 @@ export const products = [
         price: "$230.20",
     },
     {
-        imgURL: watch10,
+        imgURL: watch3,
         name: "Sleek-V",
         price: "$540.10",
     },
-    {
-        imgURL: watch11,
-        name: "Hermes",
-        price: "$621.60",
-    },
+   
     {
         imgURL: watch12,
         name: "Sport",

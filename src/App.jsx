@@ -8,16 +8,21 @@ const App = () => {
   return (
     <main className='relative'>
      <Nav />
-      <section>
-        {/* <Hero /> */}
+      
+      <section className=' xl:padding-l wide:padding-r padding-b'>
+        <HeroB/>
       </section>
       <section>
-        <HeroB/>
+        <Hero />
       </section>
 
       <section className="padding">
         <PopularProduct />
       </section>
+
+      
+
+     
       <section className="padding">
         <SuperQuality />
       </section>
@@ -27,7 +32,7 @@ const App = () => {
       <section className="padding">
         <SpecialOffer />
       </section>
-      <section className="padding bg-pale-blue">
+      <section className="padding">
         <CustomerReviews />
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">

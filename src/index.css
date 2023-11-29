@@ -15,7 +15,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3rem;
+  padding-inline: 3rem;
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -69,6 +69,8 @@ body{
   /* transform: translateY(-90px); */
   
 }
+
+
 
 @media (max-width:1424px) {
   .red-bg{
