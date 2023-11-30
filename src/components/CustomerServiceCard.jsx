@@ -12,10 +12,12 @@ const CustomerServiceCard = ({imgURL, customerName, rating, feedback}) => {
                 />
             </div>
             <div className="max-w-[400px] flex flex-col items-center">
-                <h2>{feedback}</h2>
-                <img src={star} alt="star" />
-                <p>{rating}</p>
-                <h2>{customerName}</h2>
+                <h2 className="text-slate-gray text-lg leading-7">{feedback}</h2>
+                <div className="flex items-center flex-1 gap-4">
+                    <img src={star} alt="star" />
+                    <p className="text-2xl font-normal ">{rating}</p>
+                </div>
+                <h3 className="mt-4 text-2xl text-slate-gray font-semibold">{customerName}</h3>
             </div>
         </div>
 

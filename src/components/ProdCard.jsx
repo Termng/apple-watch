@@ -9,7 +9,7 @@ const ProdCard = ( {imgURL, name, price}) => {
     <div className='main-flex-card'>
       <div className='flex flex-col max-sm:w-full rounded-2xl w-full bg-card bg-center bg-cover border-opacity-0 max-w-[300px] max-h-[300px] place-items-center'>
           <img src={imgURL} alt={name}
-          className= 'w-[100%] h-[100%] max-w-[280px] object-cover items-center hover:scale-125  hover:rotate-12 transition-all ease-in-out'
+          className= 'w-[100%] h-[100%] max-w-[280px] object-cover items-center hover:scale-125  hover:rotate-12 transition-all ease-in-out duration-500'
           />
       </div>
 

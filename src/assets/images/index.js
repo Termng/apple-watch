@@ -17,9 +17,22 @@ import watch12 from './watch12.png'
 import watch13 from './watch13.png'
 import watch14 from './watch14.png'
 import watch18 from './watch18.png'
+import watch25 from './watch25.jpg'
+import watch26 from './watch26.jpg'
+import watch27 from './watch27.jpg'
+
 import watchbanner from './watchbanner.png'
+import watchbanner2 from './watchbanner2.jpg'
+import watchbanner3 from './watchbanner3.jpg'
+import watchbanner4 from './watchbanner4.jpg'
+import watchbanner5 from './watchbanner5.jpg'
+import watchbanner6 from './watchbanner6.jpg'
+import watchbanner7 from './watchbanner7.jpg'
+
 import customer1 from './customer1.jpg'
 import customer2 from './customer2.jpg'
+
+import footerLogo from './logofooter.png'
 
 
 
@@ -45,7 +58,19 @@ export {
     watch13,
     watch14,
     watch18,
+    watch25,
+    watch26,
+    watch27,
     watchbanner,
+    watchbanner2,
+    watchbanner3,
+    watchbanner4,
+    watchbanner5,
+    watchbanner6,
+    watchbanner7,
     customer1,
-    customer2
+    customer2,
+
+
+    footerLogo
 }

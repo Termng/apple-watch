@@ -15,13 +15,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-inline: 3rem;
-  gap: 2rem;
+  padding-inline: 1rem;
+  gap: 4rem;
   flex-wrap: wrap;
 }
 
 .left{
-  width: 40%;
+  width: 47%;
 }
 
 .hero-font{
@@ -45,10 +45,8 @@ body{
 }
 
 .img-cont{
+  width: 180px;
   max-width: 180px;
-  max-height: 140px;
-  border-radius: 10px;
-  background-color: rgb(127, 185, 255);
 }
 .img-cont img{
   width: 80%;
@@ -70,6 +68,49 @@ body{
   
 }
 
+.div-image{
+  width: 100%;
+  height: 400px;
+
+  position: relative;
+  display: inline-block;
+
+
+}
+
+
+
+.bg-image{
+  height: 400px;
+  object-fit: cover;
+  width: 100%;
+
+  
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  pointer-events: none; /* Allows clicks to go through the overlay */
+}
+
+
+.text-inside{
+  color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+
+}
 
 
 @media (max-width:1424px) {
@@ -87,6 +128,11 @@ body{
   
 }
 
+
+.footerlogo{
+  color: white;
+  background-color: green
+}
 
 @tailwind base;
 @tailwind components;

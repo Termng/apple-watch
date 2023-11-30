@@ -1,12 +1,12 @@
 import { arrowRight} from "./assets/icons"
-import { watch11} from "./assets/images"
+import { watch27,} from "./assets/images"
 import { useState} from "react"
 import Button from "./components/Button"
 import { statistics, products, watches } from "./constants"
 import WatchCard from "./components/WatchCard"
 
 const HeroB = () => {
-  const [bigWatchImg, setbigWatchImg] = useState (watch11)
+  const [bigWatchImg, setbigWatchImg] = useState (watch27)
 
   return (
     <section
@@ -21,14 +21,14 @@ const HeroB = () => {
             <br /> 
             <span className="bg-black text-white px-2 rounded-md">Apple Watches</span>
             </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nobis perferendis eligendi.</p>
+            <p>Embrace Smart Savings: Your Source for Incredible Deals on Apple Watches</p>
             <Button label ='Shop Now' IconURL = {arrowRight} />
 
            <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
              {statistics.map((stat) =>  
               (
                 <div key={stat.label}> 
-                  <p>{stat.value}</p>
+                  <p className="font-palanquin text-4xl font-bold">{stat.value}</p>
                   <p>{stat.label}</p>
                 </div>
               )
