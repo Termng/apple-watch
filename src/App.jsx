@@ -2,12 +2,12 @@ import React from 'react';
 
 import { Footer, Hero, HeroB,PopularProduct, Services, Subscribe, SuperQuality, CustomerReviews, SpecialOffer} from './sections'; 
 
-import Nav from './components/nav';
+import Nav from './components/Nav';
 
 const App = () => {
   return (
     <main className='relative'>
-     <Nav />
+     <Nav/>
       
       <section className=' xl:padding-l wide:padding-r padding-b'>
         <HeroB/>
