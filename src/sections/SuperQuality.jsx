@@ -1,5 +1,5 @@
-import Button from "../components/Button"
-import { watch18 } from "../assets/images"
+import Button from "../src/components/Button"
+import { watch18 } from "../src/assets/images"
 
 const SuperQuality = () => {
   return (
