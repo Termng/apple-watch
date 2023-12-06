@@ -39,7 +39,7 @@ const HeroB = () => {
 
         </div>
 
-      <div className="relative justify-center items-center  max-xl:py-20 bg-hero  bg-cover bg-center" >
+      <div className="relative justify-center items-center max-xl:py-20 bg-cover bg-center" >
         <img 
         className="relative object-contain z-10 " 
         width = {510} 
